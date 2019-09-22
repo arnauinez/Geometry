@@ -1,5 +1,4 @@
 public class Rectangle extends Figure {
-<<<<<<< HEAD
     private double l1;
     private double l2;
 
@@ -7,14 +6,8 @@ public class Rectangle extends Figure {
         this.l1 = l1;
         this.l2 = l2;
     }
-
     @Override
     public double area() {
         return (this.l1*this.l2);
-=======
-
-    public Rectangle(int l1, int l2) {
-        super();
->>>>>>> master
     }
 }

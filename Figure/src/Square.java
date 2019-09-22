@@ -1,4 +1,5 @@
-public class Square {
-
-    int something=0;
+public class Square extends Rectangle{
+    private Square (double l){
+        super(l, l);
+    }
 }

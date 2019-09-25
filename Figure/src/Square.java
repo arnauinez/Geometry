@@ -1,5 +1,5 @@
 public class Square extends Rectangle{
-    private Square (double l){
+    Square(double l){
         super(l, l);
     }
 }

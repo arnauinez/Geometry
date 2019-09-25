@@ -24,16 +24,14 @@ public class GestorFigurasImpl implements GestorFigures {
 
     public static void main(String[] args) {
         GestorFigurasImpl p= new GestorFigurasImpl();
-        Figure[] list = new Figure[2];
+        Figure[] list = new Figure[5];
         list[0] = new Rectangle(10,3);
         list[1] = new Rectangle(1,3);
-       // p.run(list);
+        list[2] = new Square(3);                        //Per que apareix "|:"?
+        list[3] = new Triangle(2,2);
+        list[4] = new Circle(1);
         System.out.println(p.sumArea(list));
     }
 
-    public void run(Figure [] list)
-    {
-        GestorFigures gestor = new GestorFigurasImpl();
-        System.out.println(gestor.sumArea(list));
-    }
+
 }

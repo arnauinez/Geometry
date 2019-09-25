@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f67f2a5-2080-421d-a73c-72eb3369223f" name="Default Changelist" comment="">
+    <list default="true" id="8f67f2a5-2080-421d-a73c-72eb3369223f" name="Default Changelist" comment="Le falta un deta">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/src/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GestorFigurasImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GestorFigurasImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568892344910</updated>
-      <workItem from="1569408018796" duration="8287000" />
+      <workItem from="1569408018796" duration="9161000" />
     </task>
     <task id="LOCAL-00001" summary="Ahora suma">
       <created>1569413657636</created>
@@ -99,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569426143308</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Suma completa">
+      <created>1569429877187</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569429877187</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

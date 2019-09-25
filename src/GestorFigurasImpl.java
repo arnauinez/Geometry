@@ -1,12 +1,15 @@
+
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 public class GestorFigurasImpl implements GestorFigures {
+
+
     @Override
     public void sort(Figure[] list) {
 
 
         Arrays.sort(list,Collections.reverseOrder());
-
         System.out.printf("De mayor a menor %s",Arrays.toString(list));
 
 
@@ -15,8 +18,10 @@ public class GestorFigurasImpl implements GestorFigures {
     @Override
     public double sumArea(Figure[] list) {
         double sum=0;
+
         for (Figure figure: list) {
             sum += figure.area();
+
         }
         return sum;
     }
@@ -34,6 +39,7 @@ public class GestorFigurasImpl implements GestorFigures {
         System.out.println(p.sumArea(list));
         p.sort(list);
     }
+
 
 
 }

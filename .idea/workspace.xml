@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f67f2a5-2080-421d-a73c-72eb3369223f" name="Default Changelist" comment="Le falta un deta">
+    <list default="true" id="8f67f2a5-2080-421d-a73c-72eb3369223f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GestorFigurasImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GestorFigurasImpl.java" afterDir="false" />
     </list>
@@ -82,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568892344910</updated>
-      <workItem from="1569408018796" duration="9161000" />
+      <workItem from="1569408018796" duration="10210000" />
     </task>
     <task id="LOCAL-00001" summary="Ahora suma">
       <created>1569413657636</created>
@@ -105,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569429877187</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Le falta un detalle para que funcione el sort">
+      <created>1569430716656</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569430716656</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +133,19 @@
     <MESSAGE value="Rectangle corrected" />
     <MESSAGE value="Ahora suma" />
     <MESSAGE value="Suma completa" />
-    <option name="LAST_COMMIT_MESSAGE" value="Suma completa" />
+    <MESSAGE value="Le falta un detalle para que funcione el sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Le falta un detalle para que funcione el sort" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GestorFigurasImpl.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

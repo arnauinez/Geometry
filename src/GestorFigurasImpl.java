@@ -6,10 +6,17 @@ public class GestorFigurasImpl implements GestorFigures {
 
 
     @Override
-    public void sort(Figure[] list) {
-
-
-        Arrays.sort(list,Collections.reverseOrder());
+    public void sort(Figure[] list) {                                       //Hace algo raro al hacer el sort y muestra cosas raras por pantalla
+        double sum2=0;
+        String []sum=new String[5];
+        int i=0;
+        for (Figure figure: list) {
+            sum2 =  figure.area();
+            String some=String.valueOf(sum2);
+            sum [i]= some;
+            i++;
+        }
+        Arrays.sort(sum,Collections.reverseOrder());
         System.out.printf("De mayor a menor %s",Arrays.toString(list));
 
 
@@ -38,6 +45,7 @@ public class GestorFigurasImpl implements GestorFigures {
         list[4] = new Circle(1);
         System.out.println(p.sumArea(list));
         p.sort(list);
+
     }
 
 

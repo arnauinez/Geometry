@@ -11,4 +11,9 @@ public class Triangle extends Figure{
     public double area() {
         return ((this.base*this.height)/2);
     }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
+    }
 }

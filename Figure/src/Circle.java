@@ -9,4 +9,9 @@ public class Circle extends Figure{
     public double area() {
         return (Math.PI * Math.pow(this.radius, 2));
     }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
+    }
 }

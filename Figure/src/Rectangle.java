@@ -10,4 +10,9 @@ public class Rectangle extends Figure {
     public double area() {
         return (this.l1*this.l2);
     }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
+    }
 }

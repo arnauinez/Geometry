@@ -19,7 +19,6 @@ public class GestorFigurasImpl implements GestorFigures {
         Arrays.sort(sum,Collections.reverseOrder());
         System.out.printf("De mayor a menor %s",Arrays.toString(list));
 
-
     }
 
     @Override

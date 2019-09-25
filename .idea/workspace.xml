@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8f67f2a5-2080-421d-a73c-72eb3369223f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/src/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/src/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/src/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GestorFigurasImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GestorFigurasImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568892344910</updated>
-      <workItem from="1569408018796" duration="6039000" />
+      <workItem from="1569408018796" duration="8287000" />
     </task>
     <task id="LOCAL-00001" summary="Ahora suma">
       <created>1569413657636</created>
@@ -92,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569413657636</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Suma completa">
+      <created>1569426143308</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569426143308</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +119,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rectangle corrected" />
     <MESSAGE value="Ahora suma" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ahora suma" />
+    <MESSAGE value="Suma completa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Suma completa" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

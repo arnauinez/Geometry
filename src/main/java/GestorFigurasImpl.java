@@ -10,7 +10,6 @@ public class GestorFigurasImpl implements GestorFigures {
 
     }
 
-
     public double sumArea(Figure[] list) {
         double sum=0;
 

@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f67f2a5-2080-421d-a73c-72eb3369223f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GestorFiguresTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GestorFigurasImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GestorFigurasImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/src/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/src/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/src/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/src/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/src/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/src/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geometry.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Geometry.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GestorFigurasImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GestorFigures.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -31,10 +42,11 @@
   <component name="ProjectId" id="1RKFj8o7TeyFVj6Y4FNrPD1w8Wc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569178955944" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,9 +54,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -58,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.GestorFiguresTest">
     <configuration name="GestorFigurasImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GestorFigurasImpl" />
       <module name="Geometry" />
@@ -66,8 +78,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GestorFiguresTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Geometry" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GestorFiguresTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GestorFiguresTest" />
         <item itemvalue="Application.GestorFigurasImpl" />
       </list>
     </recent_temporary>
@@ -82,7 +104,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568892344910</updated>
-      <workItem from="1569408018796" duration="10210000" />
+      <workItem from="1569408018796" duration="12007000" />
+      <workItem from="1569490052253" duration="2593000" />
     </task>
     <task id="LOCAL-00001" summary="Ahora suma">
       <created>1569413657636</created>
@@ -112,7 +135,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569430716656</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Le falta un detalle para que funcione el sort">
+      <created>1569431815569</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569431815570</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Le falta un detalle para que funcione el sort">
+      <created>1569431917399</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1569431917399</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +160,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -135,17 +174,6 @@
     <MESSAGE value="Suma completa" />
     <MESSAGE value="Le falta un detalle para que funcione el sort" />
     <option name="LAST_COMMIT_MESSAGE" value="Le falta un detalle para que funcione el sort" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/GestorFigurasImpl.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

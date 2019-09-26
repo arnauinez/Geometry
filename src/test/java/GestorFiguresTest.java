@@ -12,7 +12,7 @@ public class GestorFiguresTest {
         list = new Figure[5];
         list[0] = new Rectangle(10,3);
         list[1] = new Rectangle(1,3);
-        list[2] = new Square(3);                        //Per que apareix "|:"?
+        list[2] = new Square(3);
         list[3] = new Triangle(2,2);
         list[4] = new Circle(1);
     }
@@ -28,8 +28,8 @@ public class GestorFiguresTest {
 
         Assert.assertEquals("sort", Rectangle.class, list[0].getClass() );
         p.sort(list);
-        Assert.assertEquals("sort", Triangle.class, list[0].getClass() );
-        Assert.assertEquals("sort", 2, list[0].area(),0.25 );
+        Assert.assertEquals("sort", Triangle.class, list[4].getClass() );
+        Assert.assertEquals("sort", 30, list[0].area(),0.25 );
 
 
 

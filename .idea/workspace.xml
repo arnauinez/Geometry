@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f67f2a5-2080-421d-a73c-72eb3369223f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GestorFiguresTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/src/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/src/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/src/Figure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/src/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/src/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Figure/src/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geometry.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Geometry.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GestorFigurasImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GestorFigures.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GestorFiguresTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GestorFiguresTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +42,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -105,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568892344910</updated>
       <workItem from="1569408018796" duration="12007000" />
-      <workItem from="1569490052253" duration="2593000" />
+      <workItem from="1569490052253" duration="5558000" />
     </task>
     <task id="LOCAL-00001" summary="Ahora suma">
       <created>1569413657636</created>
@@ -149,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569431917399</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Le falta un detalle para que funcione el sort">
+      <created>1569493580459</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1569493580459</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
